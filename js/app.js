@@ -150,23 +150,23 @@
 // const scoreDolphins = (86 + 107 + 88) / 3; //koalas wins
 // const scoreKoalas = (90 + 91 + 110) / 3;
 
-const scoreDolphins = (96 + 107 + 88) / 3; //not found wins data
-const scoreKoalas = (90 + 91 + 110) / 3;
+// const scoreDolphins = (96 + 107 + 88) / 3; //not found wins data
+// const scoreKoalas = (90 + 91 + 110) / 3;
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-  console.log("Dolphins win the trophy");
-} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-  console.log("Koalas win the trophy");
-} else if (
-  scoreDolphins === scoreKoalas &&
-  (scoreDolphins >= 100) & (scoreKoalas >= 100)
-) {
-  console.log("Both win the trophy!");
-} else {
-  console.log("not found match data");
-}
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log("Dolphins win the trophy");
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//   console.log("Koalas win the trophy");
+// } else if (
+//   scoreDolphins === scoreKoalas &&
+//   (scoreDolphins >= 100) & (scoreKoalas >= 100)
+// ) {
+//   console.log("Both win the trophy!");
+// } else {
+//   console.log("not found match data");
+// }
 
-console.log(scoreDolphins, scoreKoalas);
+// console.log(scoreDolphins, scoreKoalas);
 
 // let username = "arun";
 // console.log(Number(username.length));
@@ -219,3 +219,12 @@ console.log(scoreDolphins, scoreKoalas);
 // } else {
 //   console.log("heyyyy!!");
 // }
+
+//................................................................................................. ternary operator
+
+// const firstName = "Arun";
+// const firstName = "";
+
+// firstName
+//   ? console.log(`This is True and name is ${firstName}`)
+//   : console.log("This is False");
