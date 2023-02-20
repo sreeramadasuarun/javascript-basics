@@ -141,17 +141,32 @@
 
 // .....................................................................................Coding Challenge #3
 
-// const scoreDolphins = (96 + 108 + 89) / 3;
-// const scoreKoalas = (88 + 91 + 110) / 3;
-// console.log(scoreDolphins, scoreKoalas);
+// const scoreDolphins = (96 + 107 + 88) / 3; //dolphis wins
+// const scoreKoalas = (80 + 91 + 110) / 3;
 
-// if (scoreDolphins > scoreKoalas) {
-//   console.log("Dolphins win the trophy 🏆");
-// } else if (scoreKoalas > scoreDolphins) {
-//   console.log("Koalas win the trophy 🏆");
-// } else if (scoreDolphins === scoreKoalas) {
-//   console.log("Both win the trophy!");
-// }
+// const scoreDolphins = (96 + 107 + 88) / 3; //both wins
+// const scoreKoalas = (90 + 91 + 110) / 3;
+
+// const scoreDolphins = (86 + 107 + 88) / 3; //koalas wins
+// const scoreKoalas = (90 + 91 + 110) / 3;
+
+const scoreDolphins = (96 + 107 + 88) / 3; //not found wins data
+const scoreKoalas = (90 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  (scoreDolphins >= 100) & (scoreKoalas >= 100)
+) {
+  console.log("Both win the trophy!");
+} else {
+  console.log("not found match data");
+}
+
+console.log(scoreDolphins, scoreKoalas);
 
 // let username = "arun";
 // console.log(Number(username.length));
