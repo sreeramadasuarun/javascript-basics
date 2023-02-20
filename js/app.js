@@ -228,3 +228,30 @@
 // firstName
 //   ? console.log(`This is True and name is ${firstName}`)
 //   : console.log("This is False");
+
+//.................................................................................................... Switch
+
+// const score = 4;
+
+// switch (score) {
+//   case 1:
+//     console.log("score one");
+//     break;
+//   case 2:
+//     console.log("score two");
+//     break;
+//   case 3:
+//     console.log("score three");
+//     break;
+//   case 4:
+//     console.log("score four");
+//     break;
+//   case 5:
+//     console.log("score five");
+//     break;
+//   case 6:
+//     console.log("score six");
+//     break;
+//   default:
+//     console.log("you did not roll the dice");
+// }
