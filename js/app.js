@@ -255,3 +255,132 @@
 //   default:
 //     console.log("you did not roll the dice");
 // }
+
+//____________________________________________________________________________________________Coding Challenge #4
+
+// const bill = 300;
+// const tip = bill > 50 && bill < 300 ? bill * 0.15 : bill * 0.2;
+
+// console.log(bill);
+
+// console.log(tip);
+
+// console.log(
+//   `the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}.`
+// );
+
+// __________________________________________________________________________________________________functions
+
+// function describeCountry(country, population, capitalCity) {
+//   return `${country} has ${population} million people and
+// its capital city is ${capitalCity}`;
+// }
+
+// const Portugal = describeCountry("Portugal", 10, "Lisbon");
+// const Germany = describeCountry("Germany", 83, "Berlin");
+// const Finland = describeCountry("Finland", 6, "Helsinki");
+// console.log(Portugal);
+// console.log(Germany);
+// console.log(Finland);
+
+//................other practice
+
+// ..................................
+// function addNumbers(num1, num2) {
+//   return num1 + num2;
+// }
+
+// const firstValue = addNumbers(1, 5);
+// const secondValue = addNumbers(2, 3);
+
+// console.log(firstValue, secondValue);
+
+// // function
+// const add = function (num1, num2) {
+//   return num1 + num2;
+// };
+
+// const thirdValue = add(100, 200);
+
+// console.log(thirdValue);
+
+// console.log(add(10, 20));
+
+// console.log(firstValue, secondValue, add(100, 200));
+
+// const Addition = (num1, num2) => num1 + num2; //arrow
+
+// console.log(Addition(10, 50));
+//...................................................
+
+// ________________________________________________________Array
+
+// const numbers = [10, 20, 30, 40, 50];
+
+// console.log(numbers[2]);
+
+//........................................
+// let fruit = ["apple", "banana", "cherries", "orange", "pineapple"];
+// console.log(fruit);
+
+// console.log(fruit.length);
+
+// console.log(fruit[fruit.length - 1]);
+
+// console.log(fruit.length - 1);
+
+// fruit.push("Grapes");
+// console.log(fruit);
+
+// fruit.pop();
+// console.log(fruit);
+
+// fruit.unshift("BlackBerries");
+// fruit.unshift("Grapes");
+// console.log(fruit);
+
+//..........................................
+
+//...................................Function Declarations vs. Expressions challenge
+
+// function percentageOfWorld1(population) {
+//   return (population / 7900) * 100;
+// }
+
+// const india = percentageOfWorld1(10);
+// const china = percentageOfWorld1(1441);
+// const usa = percentageOfWorld1(332);
+
+// console.log(india, china, usa);
+
+// function percentageOfWorld2(population) {
+//   return (population / 7900) * 100;
+// }
+
+// const india2 = percentageOfWorld1(80);
+// const china2 = percentageOfWorld1(141);
+// const usa2 = percentageOfWorld1(132);
+
+// console.log(india2, china2, usa2);
+
+//.............................................
+// const percentageOfWorld1 = (population) => (population / 7900) * 100;
+
+// const india = percentageOfWorld1(10);
+// const china = percentageOfWorld1(1441);
+// const usa = percentageOfWorld1(332);
+
+// console.log(india, china, usa);
+
+//.............................................
+// const percentageOfWorld1 = (population) => {
+//   return (population / 7900) * 100;
+// };
+
+// const india = percentageOfWorld1(10);
+// const china = percentageOfWorld1(1441);
+// const usa = percentageOfWorld1(332);
+
+// console.log(india, china, usa);
+
+//.............................................
